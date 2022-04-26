@@ -1,3 +1,8 @@
+"""
+This file simulates a small sample dataset to study simulated linear relationships.
+This is not used in the paper.
+"""
+
 import pickle
 import numpy as np
 import matplotlib.pyplot as plt

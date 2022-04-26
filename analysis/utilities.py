@@ -81,7 +81,7 @@ def from_minformula_db_to_usable_array():
     """
     Take the sqlite3 output of the booleanMinimization part of the project
     and convert it into an array with dimensions (LoTs, cats) that
-    can be used for the bayesian model.
+    contains the length of the minimal formulas for each cat in each LoT.
     """
     db_path = '/Users/faust/Desktop/neuralNetsLoT/db_numprop-4_nestlim-100.db'
     con = sql.connect(db_path)
